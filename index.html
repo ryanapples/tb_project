@@ -98,8 +98,8 @@
             <div class="col-12">
                 <form 
                     action="contestForm.csv" 
-                    id="contact-form"
-                    role="form" 
+                    id="form"
+                    role="form"
                     class="form-inline justify-content-center"
                     method="post"
                 >
@@ -108,30 +108,26 @@
                             <div class="input-group">
                                 <input 
                                     type="text" 
-                                    class="form-control mw-200" 
+                                    class="form-control form-control-danger" 
                                     id="c_name"
                                     name="c_name"
                                     data-error-msg="Please enter your name"
-                                    minlength="2"
                                     placeholder="Enter Name"
-                                    required
-                                ><br/>
-                                <div class="form-control-feedback" id="name-error"></div>                                
+                                >
+                                                               
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="input-group">
                                 <input 
                                     type="email" 
-                                    class="form-control mw-150"
+                                    class="form-control form-control-danger"
                                     id="c_email" 
                                     name="c_email"
                                     placeholder="Enter Email"
                                     data-error-msg="Valid email is required."
-                                    required
-                                ><br/>
-                                <div class="form-control-feedback" id="email-error"></div>                                
-                                <span class="input-group-btn">
+                                >
+                            <span class="input-group-btn">
                                 <button class="btn btn-primary signup_button" type="button">Submit</button>
                             </span>
                             </div>

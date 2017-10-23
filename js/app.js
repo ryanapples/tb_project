@@ -30,10 +30,28 @@ function formFieldInfo() {
         email: $('#c_email').val()
     }
     // users are required to input valid values into input fields
-    if(contestObj.name === '' || contestObj.email=== '' || (!isValidEmailAddress(contestObj.email) )) {
+    if(contestObj.name === '' && contestObj.name.length < 2 || contestObj.email=== '' || (!isValidEmailAddress(contestObj.email) )) {
+        messages.error();
         return;
-    } else {
+    }
+    else {
+        messages.success();
         sendData(contestObj);
+    }
+}
+
+var messages = {
+    name: 'Please enter valid name.',
+    email: 'Please enter valid email address.',
+    error: function() {
+        $('#form').addClass('has-danger');
+        $('#c_name').addClass('form-control-danger').attr('placeholder', 'Field required');
+        $('#c_email').addClass('form-control-danger').attr('placeholder', 'Field required');
+    },
+    success: function() {
+        $('#form').removeClass('has-danger');
+        $('#c_name').removeClass('form-control-danger').attr('placeholder', 'Woohoo!');
+        $('#c_email').removeClass('form-control-danger').attr('placeholder', 'Goodluck!');
     }
 }
 
