@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" 
+    integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" 
+    crossorigin="anonymous">    
+    <script src="https://use.fontawesome.com/776db76f10.js"></script>    
+    <title>Turtle Bay | TravisMathew</title>
+</head>
+<body>
+    <div>
+        <!-- TOP NAVIGATION -->
+        <div class="row top-nav">
+            <div class="col"></div>
+            <div class="col-8">
+                <div class="top-nav-elements">
+                    <span class="hidden-lg-down top-logo-text">
+                        <img src="images/mini_nav_logo.png" alt="mini-logo">
+                        TravisMathew is running for president!
+                        <span class="sub-text">find out more here</span>
+                    </span>
+                    <span class="top-nav-buttons">
+                        <button class="account">My Account<i class="fa fa-user fa-icon" aria-hidden="true"></i></button>    
+                        <button class="search">Search<i class="fa fa-search fa-icon" aria-hidden="true"></i></button>
+                    </span>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+        
+        <!-- MAIN NAVIGATION-->
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-8">
+                <nav class="navbar navbar-toggleable-md navbar-light">
+                    <button 
+                        class="navbar-toggler navbar-toggler-right" 
+                        type="button" data-toggle="collapse" 
+                        data-target="#navbarSupportedContent" 
+                        aria-controls="navbarSupportedContent" 
+                        aria-expanded="false" 
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="TravisMathew">
+                    </a>
+
+                    <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="navbar-item">
+                                <a href="#" class="nav-link active">shop</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#" class="nav-link">video</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#" class="nav-link">blog</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#" class="nav-link">lookbook</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#" class="nav-link">team</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#" class="nav-link">brand</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#" class="nav-link">retail</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#" class="nav-link">
+                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>    
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="col"></div>
+        </div>
+
+        <!-- HERO IMAGE -->
+        <div>
+            <img src="images/hero_img.png" alt="Hero Img" class="images">
+        </div>
+
+        <!-- SIGN UP SECTION -->
+        <div class="row text-center signUp">
+            <h4 class="col-12 text-white signup_header">enter to win</h4>
+            <p class="col-12 text-white signup_subheader">Enter to win the "Aloha Awaits You".</p>
+
+            <div class="col-12">
+                <form 
+                    action="contestForm.csv" 
+                    id="contact-form"
+                    role="form" 
+                    class="form-inline justify-content-center"
+                    method="post"
+                >
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="input-group">
+                                <input 
+                                    type="text" 
+                                    class="form-control mw-200" 
+                                    id="c_name"
+                                    name="c_name"
+                                    data-error-msg="Please enter your name"
+                                    minlength="2"
+                                    placeholder="Enter Name"
+                                    required
+                                ><br/>
+                                <div class="form-control-feedback" id="name-error"></div>                                
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="input-group">
+                                <input 
+                                    type="email" 
+                                    class="form-control mw-150"
+                                    id="c_email" 
+                                    name="c_email"
+                                    placeholder="Enter Email"
+                                    data-error-msg="Valid email is required."
+                                    required
+                                ><br/>
+                                <div class="form-control-feedback" id="email-error"></div>                                
+                                <span class="input-group-btn">
+                                <button class="btn btn-primary signup_button" type="button">Submit</button>
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- LOREM SECTION -->
+        <div class="row desc-section">
+            <div class="col"></div>
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-3">
+                        <p class="aloha-awaits">
+                            Aloha <br/> Awaits You!
+                        </p>
+                        <p class="sponsors">
+                            Presented By: <br/> Turtle Bay Resort & TravisMathew
+                        </p>
+                    </div>
+
+                    <div class="col-6 lorem-text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam error consequuntur eligendi debitis velit repellendus unde nulla? Quia dolor commodi omnis, veritatis alias aut possimus sed et! Provident, in aliquid reprehenderit, ab voluptatibus sunt consequuntur esse architecto excepturi ad deserunt harum, voluptate minus error blanditiis.
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+
+        <!-- PRIZES -->
+        <div>
+            <img src="images/prizes.png" alt="Prizes" class="images">
+        </div>
+
+        <!-- CONTEST RULES -->
+        <div class="text-center">
+            <p class="contest-rules">see official contest rules</p>
+        </div>
+
+        <!-- BOTTOM HERO -->
+        <div>
+            <img src="images/bottom_hero.png" alt="Sponsors Image" class="images">
+        </div>
+
+        <!-- FOOTER-->
+        <div class="row footer">
+            <div class="col"></div>
+            <div class="col-12 col-lg-6">
+                <div class="row">
+                    <div class="col-3">
+                        <img 
+                            src="images/footer_logo.png" 
+                            class="footer-logo img-fluid"
+                            alt="TravisMathew"
+                        />
+                        <p class="address">
+                            14520 Delta Lane, Suite 104 <br/>
+                            Huntington Beach, CA 92647 <br/>
+                            Contact/Support Information <br/>
+                        </p>
+                        <span class="fa-stack fa-sm social-links">
+                            <a href="https://www.facebook.com/travismathew/" target="_blank">
+                                <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                                <i class="fa fa-facebook fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack fa-sm social-links">
+                            <a href="http://travismathew.tumblr.com/" target="_blank">
+                                <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                                <i class="fa fa-tumblr fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack fa-sm social-links">
+                            <a href="https://www.instagram.com/travismathew/?hl=en" target="_blank">
+                                <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                                <i class="fa fa-instagram fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    </div>
+
+                    <div class="col-2 footer-col">
+                        <p class="footer-section">Shop</p>
+                        <ul class="footer-li-items">
+                            <li>Main</li>
+                            <li>New Arrivals</li>
+                            <li>Polos</li>
+                            <li>Shorts</li>
+                            <li>Pants</li>
+                            <li>Hats</li>
+                            <li>T-Shirts</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-2 footer-col">
+                        <p class="footer-section">Explore</p>
+                        <ul class="footer-li-items">
+                            <li>Video</li>
+                            <li>Lookbook</li>
+                            <li>Blog</li>
+                            <li>Team</li>
+                            <li>Brand</li>
+                            <li>Retail</li>
+                            <li>Custom</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-2 footer-col">
+                        <p class="footer-section">Support</p>
+                        <ul class="footer-li-items">
+                            <li>Account</li>
+                            <li>Returns</li>
+                            <li>FAQ</li>
+                            <li>Legal</li>
+                            <li>Contact</li>
+                            <li>Careers</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-3 footer-col">
+                        <p class="footer-section">Newsletter Signup</p>
+                        <p class="footer-text">Project releases, new deals <br/> + more</p>
+                        <div class="form-group">
+                            <input 
+                                type="text" 
+                                class="form-control" 
+                                id="footer-form" 
+                                placeholder="Enter Email to Sign Up"
+                                disabled
+                            >
+                            <button class="footer-btn">Submit</button>
+                        </div>
+                    </div>
+
+                </div>`
+            </div>
+            <div class="col"></div>
+        </div>
+ 
+    </div>
+    
+    <!-- Script Files -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
