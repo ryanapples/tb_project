@@ -1,0 +1,207 @@
+/* --------------------------*/
+/* TOP NAVIGATION */
+/*---------------------------*/
+.top-nav {
+    background-color: black;
+    color: #fff;
+    font-size: .5em;
+    padding: 0;
+}
+
+.top-nav-elements {
+    margin-top: .5vh;
+}
+
+.top-logo-text, 
+.sub-text {
+    text-transform: uppercase;    
+}
+
+.sub-text {
+    font-style: italic;
+    font-size: .8em;
+    color: #ff0000;
+}
+
+.fa-icon {
+    margin-left: 0.7vh;
+    font-size: 11px;
+}
+
+.search, 
+.account {
+    background-color: black;
+    color: #fff;
+    float: right;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.search {
+    border: none;
+    border-left: .5px solid white;
+    border-right: .5px solid white;
+}
+
+.account {
+    border: none;
+    border-right: .5px solid white;
+}
+
+/* --------------------------*/
+/* MAIN NAVIGATION */
+/*---------------------------*/
+.navbar-nav {
+    font-size: .7em;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    color: #000;
+}
+
+/* --------------------------*/
+/* IMAGES */
+/*---------------------------*/
+.images {
+    width: 100%;
+}
+
+/* --------------------------*/
+/* SIGN UP */
+/*---------------------------*/
+.signUp {
+    background-color: #00b2cd;
+    padding: 3vh 0;
+}
+
+.signup_header {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.signup_subheader {
+    font-size: .6em;
+}
+
+.signup_button {
+    background-color: #005261 !important;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px !important;
+}
+
+/* --------------------------*/
+/* INPUTS */
+/*---------------------------*/
+input::placeholder {
+    font-size: .7em;
+    color: #9a9d9f;
+}
+
+/* --------------------------*/
+/* DESC SECTION */
+/*---------------------------*/
+.desc-section {
+    padding: 8vh 0;
+    background-color: #fff;
+}
+
+.aloha-awaits {
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: bold;
+}
+
+.sponsors, 
+.lorem-text {
+    font-size: .7em;
+}
+
+.lorem-text {
+    line-height: 200%;
+    color: #9a9d9f;
+}
+
+/* --------------------------*/
+/* CONTEST RULES */
+/*---------------------------*/
+.contest-rules {
+    background-color: #00b2cd;    
+    color: white;
+    font-size: .7em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 3vh 0;
+    text-transform: uppercase;    
+    margin-bottom: 0;
+}
+
+/* --------------------------*/
+/* FOOTER */
+/*---------------------------*/
+.footer {
+    color: #fff;
+    background-color: #000;
+    padding: 5vh 0;
+}
+
+.address, .footer-li-items {
+    line-height: 175%;
+}
+
+.address {
+    margin-bottom: 1px;
+}
+
+.icon-background {
+    color: #a8a8a8;
+}
+
+.social-links a {
+    color: #000;
+}
+
+.social-links:hover {
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+.footer-btn {
+    text-transform: uppercase;
+    background-color: #333333 !important;
+    border: none;
+    float: right;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.footer-col {
+    border-left: 1px solid #fff;
+}
+
+.footer-section {
+    margin-bottom: 0;
+    font-size: .7em;
+    color: #f0f0f0;
+}
+
+.footer-li-items {
+    padding: 0;
+    list-style: none;
+}
+
+#footer-form {
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: .6em;
+}
+
+.address, 
+.footer-li-items, 
+.footer-text,
+.footer-btn {
+    font-size: .6em;
+    color: #a8a8a8;
+}
+
