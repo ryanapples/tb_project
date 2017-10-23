@@ -49,9 +49,9 @@ var messages = {
         $('#c_email').addClass('form-control-danger').attr('placeholder', 'Field required');
     },
     success: function() {
-        $('#form').removeClass('has-danger');
-        $('#c_name').removeClass('form-control-danger').attr('placeholder', 'Woohoo!');
-        $('#c_email').removeClass('form-control-danger').attr('placeholder', 'Goodluck!');
+        $('#form').removeClass('has-danger').addClass('has-success');
+        $('#c_name').removeClass('form-control-danger').addClass('form-control-success').attr('placeholder', 'Woohoo!');
+        $('#c_email').removeClass('form-control-danger').addClass('form-control-success').attr('placeholder', 'Goodluck!');
     }
 }
 
