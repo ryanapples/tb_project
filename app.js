@@ -64,23 +64,23 @@ function clearContactForm(){
 }
 
 /* ---------------------------------------------- /*
-* Send Data to CSV
+* Send Data to PHP
 /* ---------------------------------------------- */
 function sendData(formObj) {
-    console.log('sendData info ', formObj);
+    console.log('data to php', formObj);
     $.ajax({
-        url: 'contestForm.csv',
+        url: 'index.php',
+        method: 'post',
         data: {
             'name': formObj.name,
-            'E-mail': formObj.email,
+            'email': formObj.email,
         },
-        dataType: 'json',
-        method: 'post',
-        success: function(data) {
+        dataType: 'text',
+        done: function(data) {
             console.log(data);
             console.log('data sent to csv file: ', data);
         },
-        error: function(data) {
+        fail: function(data) {
             console.log('error with data submission: ', data);
         }
     });
