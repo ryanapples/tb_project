@@ -97,11 +97,10 @@
 
             <div class="col-12">
                 <form 
-                    action="contestForm.csv" 
+                    action="" 
                     id="form"
                     role="form"
                     class="form-inline justify-content-center"
-                    method="post"
                 >
                     <div class="row">
                         <div class="col-lg-6">
@@ -110,11 +109,9 @@
                                     type="text" 
                                     class="form-control form-control-danger" 
                                     id="c_name"
-                                    name="c_name"
-                                    data-error-msg="Please enter your name"
+                                    name="name"
                                     placeholder="Enter Name"
                                 >
-                                                               
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -123,12 +120,11 @@
                                     type="email" 
                                     class="form-control form-control-danger"
                                     id="c_email" 
-                                    name="c_email"
+                                    name="email"
                                     placeholder="Enter Email"
-                                    data-error-msg="Valid email is required."
                                 >
                             <span class="input-group-btn">
-                                <button class="btn btn-primary signup_button" type="button">Submit</button>
+                                <input class="btn btn-primary signup_button" name="submit" type="submit">Submit</input>
                             </span>
                             </div>
                         </div>
@@ -274,6 +270,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <script src="js/app.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
